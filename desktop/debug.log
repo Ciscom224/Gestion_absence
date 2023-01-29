@@ -1,0 +1,863 @@
+- 21:28:13.015 INFO: --------------------------------------------------------
+- 21:28:13.015 INFO: Started application
+- 21:28:13.015 INFO: Logging to: C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 21:28:13.015 INFO: Log level = DEBUG4
+- 21:28:13.015 INFO: Starting Mongoose 3.9c web server
+- 21:28:13.015 INFO: WWW directory: C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\www\public\
+- 21:28:13.015 INFO: Index files: index.php
+- 21:28:13.015 INFO: CGI interpreter: C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 21:28:13.015 INFO: CGI pattern: **.php$
+- 21:28:13.015 INFO: Hide files patterns: 
+- 21:28:13.015 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ATLASP~1\AppData\Local\Temp\
+- 21:28:13.015 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 21:28:13.015 INFO: Web server url: http://127.0.0.1:8000/
+- 21:28:13.015 INFO: remote_debugging_port = 58831
+- 21:28:13.015 DEBUG: Command line string for the browser process: "C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=58831
+- 21:28:15.406 DEBUG: App::OnContextInitialized()
+- 21:28:15.406 DEBUG: Window max width/height = 1286/680
+- 21:28:15.421 DEBUG: GetBrowserWindow(): not found, hwnd = 6030694
+- 21:28:15.421 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:28:15.421 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:28:15.421 DEBUG: StoreBrowserWindow(): hwnd = 6030694
+- 21:28:15.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.5126 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=F86BEA8B611B13CACEBB92E54572A892 --mojo-platform-channel-handle=1824 /prefetch:2
+- 21:28:15.578 DEBUG: ClientHandler::OnAfterCreated()
+- 21:28:15.578 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:28:15.609 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:28:15.000 DEBUG: Command line string for the renderer process: "C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=894113AAE81B6C640CE6A10C78134AC8 --lang=en-US --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=894113AAE81B6C640CE6A10C78134AC8 --renderer-client-id=3 --mojo-platform-channel-handle=2416 /prefetch:1
+- 21:28:15.078 DEBUG: OnBrowserCreated()
+[0128/212815.800:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 21:28:18.938 DEBUG: OnContextCreated()
+[0128/212818.960:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/bootstrap/js/bootstrap.bundle.min.js (6)
+- 21:28:19.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 21:28:25.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 21:28:25.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/#
+- 21:35:20.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/#
+- 21:35:20.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/#
+- 21:35:29.421 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/#
+- 21:35:30.563 DEBUG: OnContextCreated()
+[0128/213530.290:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'fn' of undefined", source: http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js (6)
+- 21:35:30.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:35:50.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 21:35:50.172 DEBUG: OnContextCreated()
+[0128/213550.831:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'fn' of undefined", source: http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js (6)
+- 21:35:50.046 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:36:15.296 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 21:36:19.078 DEBUG: OnContextCreated()
+[0128/213619.836:INFO:CONSOLE(177)] "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools", source: http://127.0.0.1:8000/login (177)
+[0128/213619.881:INFO:CONSOLE(182)] "[object Object]", source: http://127.0.0.1:8000/login (182)
+[0128/213620.112:INFO:CONSOLE(182)] "Uncaught TypeError: r.join(...).trimEnd is not a function", source: http://127.0.0.1:8000/login (182)
+[0128/213620.138:INFO:CONSOLE(177)] "The above error occurred in the <qc> component:
+
+    at qc (http://127.0.0.1:8000/login:182:130329)
+    at zc (http://127.0.0.1:8000/login:182:124480)
+    at div
+    at section
+    at Vc (http://127.0.0.1:8000/login:182:126864)
+    at div
+    at xf (http://127.0.0.1:8000/login:182:161165)
+    at _f (http://127.0.0.1:8000/login:182:161861)
+    at div
+    at zc (http://127.0.0.1:8000/login:182:124480)
+    at Pf (http://127.0.0.1:8000/login:182:163721)
+    at section
+    at Lv (http://127.0.0.1:8000/login:182:287044)
+    at main
+    at ve (http://127.0.0.1:8000/login:177:307453)
+    at Oe (http://127.0.0.1:8000/login:177:309013)
+    at zc (http://127.0.0.1:8000/login:182:124480)
+    at Mv (http://127.0.0.1:8000/login:182:288650)
+
+React will try to recreate this component tree from scratch using the error boundary you provided, zc.", source: http://127.0.0.1:8000/login (177)
+- 21:36:20.421 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:37:05.171 DEBUG: F5 pressed, reloading page
+- 21:37:11.437 DEBUG: F5 pressed, reloading page
+- 21:37:13.765 DEBUG: F5 pressed, reloading page
+- 21:37:27.718 DEBUG: WM_DESTROY
+- 21:37:27.718 DEBUG: RemoveBrowserWindow(): hwnd = 6030694
+- 21:37:27.718 INFO: Stopping Mongoose web server
+- 21:37:27.718 DEBUG: Mongoose webserver stopped immediately
+- 21:37:27.718 DEBUG: OnBeforeClose() hwnd=983598
+- 21:37:27.718 DEBUG: RemoveBrowserWindow(): hwnd = 983598
+- 21:37:27.718 DEBUG: GetBrowserWindow(): not found, hwnd = 983598
+- 21:37:27.718 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:37:27.718 DEBUG: Calling CefQuitMessageLoop()
+- 21:37:27.781 INFO: Ended application
+- 21:37:27.781 INFO: --------------------------------------------------------
+- 21:37:32.000 INFO: --------------------------------------------------------
+- 21:37:32.000 INFO: Started application
+- 21:37:32.000 INFO: Logging to: C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 21:37:32.000 INFO: Log level = DEBUG4
+- 21:37:32.000 INFO: Starting Mongoose 3.9c web server
+- 21:37:32.000 INFO: WWW directory: C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\www\public\
+- 21:37:32.000 INFO: Index files: index.php
+- 21:37:32.000 INFO: CGI interpreter: C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 21:37:32.000 INFO: CGI pattern: **.php$
+- 21:37:32.000 INFO: Hide files patterns: 
+- 21:37:32.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ATLASP~1\AppData\Local\Temp\
+- 21:37:32.000 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 21:37:32.016 INFO: Web server url: http://127.0.0.1:8000/
+- 21:37:32.016 INFO: remote_debugging_port = 65162
+- 21:37:32.016 DEBUG: Command line string for the browser process: "C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=65162
+- 21:37:32.078 DEBUG: App::OnContextInitialized()
+- 21:37:32.078 DEBUG: Window max width/height = 1286/680
+- 21:37:32.078 DEBUG: GetBrowserWindow(): not found, hwnd = 6096230
+- 21:37:32.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:37:32.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:37:32.094 DEBUG: StoreBrowserWindow(): hwnd = 6096230
+- 21:37:32.016 DEBUG: Command line string for the gpu-process process: "C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.5126 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=691C402748D4C7BA8845A315B543223B --mojo-platform-channel-handle=1780 /prefetch:2
+- 21:37:32.203 DEBUG: ClientHandler::OnAfterCreated()
+- 21:37:32.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:37:32.235 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:37:32.016 DEBUG: Command line string for the renderer process: "C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=EE162283671320BA390C9B06998A05D2 --lang=en-US --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=EE162283671320BA390C9B06998A05D2 --renderer-client-id=3 --mojo-platform-channel-handle=2372 /prefetch:1
+[0128/213732.779:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 21:37:32.063 DEBUG: OnBrowserCreated()
+- 21:37:34.484 DEBUG: OnContextCreated()
+[0128/213734.412:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/bootstrap/js/bootstrap.bundle.min.js (6)
+- 21:37:34.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 21:42:42.828 DEBUG: WM_DESTROY
+- 21:42:42.828 DEBUG: RemoveBrowserWindow(): hwnd = 6096230
+- 21:42:42.828 INFO: Stopping Mongoose web server
+- 21:42:42.828 DEBUG: Mongoose webserver stopped immediately
+- 21:42:42.828 DEBUG: OnBeforeClose() hwnd=1508694
+- 21:42:42.828 DEBUG: RemoveBrowserWindow(): hwnd = 1508694
+- 21:42:42.828 DEBUG: GetBrowserWindow(): not found, hwnd = 1508694
+- 21:42:42.828 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:42:42.828 DEBUG: Calling CefQuitMessageLoop()
+- 21:42:42.891 INFO: Ended application
+- 21:42:42.891 INFO: --------------------------------------------------------
+- 21:47:55.000 INFO: --------------------------------------------------------
+- 21:47:55.000 INFO: Started application
+- 21:47:55.000 INFO: Logging to: C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 21:47:55.000 INFO: Log level = DEBUG4
+- 21:47:55.000 INFO: Starting Mongoose 3.9c web server
+- 21:47:55.000 INFO: WWW directory: C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\www\public\
+- 21:47:55.000 INFO: Index files: index.php
+- 21:47:55.000 INFO: CGI interpreter: C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 21:47:55.000 INFO: CGI pattern: **.php$
+- 21:47:55.000 INFO: Hide files patterns: 
+- 21:47:55.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ATLASP~1\AppData\Local\Temp\
+- 21:47:55.000 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 21:47:55.016 INFO: Web server url: http://127.0.0.1:8000/
+- 21:47:55.016 INFO: remote_debugging_port = 62149
+- 21:47:55.016 DEBUG: Command line string for the browser process: "C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=62149
+- 21:47:55.078 DEBUG: App::OnContextInitialized()
+- 21:47:55.078 DEBUG: Window max width/height = 1286/680
+- 21:47:55.078 DEBUG: GetBrowserWindow(): not found, hwnd = 198460
+- 21:47:55.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:47:55.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:47:55.078 DEBUG: StoreBrowserWindow(): hwnd = 198460
+- 21:47:55.016 DEBUG: Command line string for the gpu-process process: "C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.5126 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=21574EB0C5104B27E4A21F239A6FBDA9 --mojo-platform-channel-handle=1784 /prefetch:2
+- 21:47:55.188 DEBUG: ClientHandler::OnAfterCreated()
+- 21:47:55.188 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:47:55.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:47:55.000 DEBUG: Command line string for the renderer process: "C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=4485FC6DBB8F95D1D641C366F83BD741 --lang=en-US --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4485FC6DBB8F95D1D641C366F83BD741 --renderer-client-id=3 --mojo-platform-channel-handle=2356 /prefetch:1
+[0128/214755.873:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 21:47:55.047 DEBUG: OnBrowserCreated()
+- 21:47:57.422 DEBUG: OnContextCreated()
+[0128/214757.449:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/bootstrap/js/bootstrap.bundle.min.js (6)
+- 21:47:57.235 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+[0128/214804.316:INFO:CONSOLE(75)] "Uncaught TypeError: Failed to execute 'scrollTo' on 'Window': No function was found that matched the signature provided.", source: http://127.0.0.1:8000/assets/js/main.js (75)
+[0128/214808.140:INFO:CONSOLE(75)] "Uncaught TypeError: Failed to execute 'scrollTo' on 'Window': No function was found that matched the signature provided.", source: http://127.0.0.1:8000/assets/js/main.js (75)
+- 22:03:08.657 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 22:03:08.765 DEBUG: OnContextCreated()
+- 22:03:08.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/index.html
+- 22:03:15.703 DEBUG: WM_DESTROY
+- 22:03:15.703 DEBUG: RemoveBrowserWindow(): hwnd = 198460
+- 22:03:15.703 INFO: Stopping Mongoose web server
+- 22:03:15.703 DEBUG: Mongoose webserver stopped immediately
+- 22:03:15.719 DEBUG: OnBeforeClose() hwnd=1967760
+- 22:03:15.719 DEBUG: RemoveBrowserWindow(): hwnd = 1967760
+- 22:03:15.719 DEBUG: GetBrowserWindow(): not found, hwnd = 1967760
+- 22:03:15.719 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 22:03:15.719 DEBUG: Calling CefQuitMessageLoop()
+- 22:03:15.813 INFO: Ended application
+- 22:03:15.813 INFO: --------------------------------------------------------
+- 22:03:30.015 INFO: --------------------------------------------------------
+- 22:03:30.015 INFO: Started application
+- 22:03:30.015 INFO: Logging to: C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 22:03:30.015 INFO: Log level = DEBUG4
+- 22:03:30.015 INFO: Starting Mongoose 3.9c web server
+- 22:03:30.015 INFO: WWW directory: C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\www\public\
+- 22:03:30.015 INFO: Index files: index.php
+- 22:03:30.015 INFO: CGI interpreter: C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 22:03:30.015 INFO: CGI pattern: **.php$
+- 22:03:30.015 INFO: Hide files patterns: 
+- 22:03:30.015 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ATLASP~1\AppData\Local\Temp\
+- 22:03:30.015 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:03:30.015 INFO: Web server url: http://127.0.0.1:8000/
+- 22:03:30.015 INFO: remote_debugging_port = 55021
+- 22:03:30.015 DEBUG: Command line string for the browser process: "C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=55021
+- 22:03:31.078 DEBUG: App::OnContextInitialized()
+- 22:03:31.078 DEBUG: Window max width/height = 1286/680
+- 22:03:31.078 DEBUG: GetBrowserWindow(): not found, hwnd = 2229742
+- 22:03:31.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:03:31.093 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:03:31.093 DEBUG: StoreBrowserWindow(): hwnd = 2229742
+- 22:03:31.015 DEBUG: Command line string for the gpu-process process: "C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.5126 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=2BAEE9A55C2E7C60846F8F49CC905425 --mojo-platform-channel-handle=1776 /prefetch:2
+- 22:03:31.171 DEBUG: ClientHandler::OnAfterCreated()
+- 22:03:31.171 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:03:31.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 22:03:31.000 DEBUG: Command line string for the renderer process: "C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=C22BF7F54081EE04E5FE75EBEDB79364 --lang=en-US --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=C22BF7F54081EE04E5FE75EBEDB79364 --renderer-client-id=3 --mojo-platform-channel-handle=2376 /prefetch:1
+[0128/220331.232:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:03:31.062 DEBUG: OnBrowserCreated()
+- 22:03:32.375 DEBUG: OnContextCreated()
+[0128/220332.797:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/bootstrap/js/bootstrap.bundle.min.js (6)
+- 22:03:33.218 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+[0128/231502.485:INFO:CONSOLE(75)] "Uncaught TypeError: Failed to execute 'scrollTo' on 'Window': No function was found that matched the signature provided.", source: http://127.0.0.1:8000/assets/js/main.js (75)
+[0128/231505.612:INFO:CONSOLE(75)] "Uncaught TypeError: Failed to execute 'scrollTo' on 'Window': No function was found that matched the signature provided.", source: http://127.0.0.1:8000/assets/js/main.js (75)
+[0128/231507.876:INFO:CONSOLE(75)] "Uncaught TypeError: Failed to execute 'scrollTo' on 'Window': No function was found that matched the signature provided.", source: http://127.0.0.1:8000/assets/js/main.js (75)
+[0128/231513.443:INFO:CONSOLE(75)] "Uncaught TypeError: Failed to execute 'scrollTo' on 'Window': No function was found that matched the signature provided.", source: http://127.0.0.1:8000/assets/js/main.js (75)
+[0128/231514.643:INFO:CONSOLE(75)] "Uncaught TypeError: Failed to execute 'scrollTo' on 'Window': No function was found that matched the signature provided.", source: http://127.0.0.1:8000/assets/js/main.js (75)
+- 23:15:18.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 23:15:18.234 DEBUG: OnContextCreated()
+[0128/231518.486:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'fn' of undefined", source: http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js (6)
+- 23:15:18.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 23:15:27.843 DEBUG: WM_DESTROY
+- 23:15:27.843 DEBUG: RemoveBrowserWindow(): hwnd = 2229742
+- 23:15:27.843 INFO: Stopping Mongoose web server
+- 23:15:27.843 DEBUG: Mongoose webserver stopped immediately
+- 23:15:27.859 DEBUG: OnBeforeClose() hwnd=722512
+- 23:15:27.859 DEBUG: RemoveBrowserWindow(): hwnd = 722512
+- 23:15:27.859 DEBUG: GetBrowserWindow(): not found, hwnd = 722512
+- 23:15:27.859 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:15:27.859 DEBUG: Calling CefQuitMessageLoop()
+- 23:15:27.953 INFO: Ended application
+- 23:15:27.953 INFO: --------------------------------------------------------
+- 23:15:32.000 INFO: --------------------------------------------------------
+- 23:15:32.000 INFO: Started application
+- 23:15:32.000 INFO: Logging to: C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 23:15:32.000 INFO: Log level = DEBUG4
+- 23:15:32.000 INFO: Starting Mongoose 3.9c web server
+- 23:15:32.000 INFO: WWW directory: C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\www\public\
+- 23:15:32.000 INFO: Index files: index.php
+- 23:15:32.000 INFO: CGI interpreter: C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 23:15:32.000 INFO: CGI pattern: **.php$
+- 23:15:32.000 INFO: Hide files patterns: 
+- 23:15:32.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ATLASP~1\AppData\Local\Temp\
+- 23:15:32.000 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:15:32.000 INFO: Web server url: http://127.0.0.1:8000/
+- 23:15:32.000 INFO: remote_debugging_port = 59984
+- 23:15:32.000 DEBUG: Command line string for the browser process: "C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=59984
+- 23:15:32.078 DEBUG: App::OnContextInitialized()
+- 23:15:32.078 DEBUG: Window max width/height = 1286/680
+- 23:15:32.078 DEBUG: GetBrowserWindow(): not found, hwnd = 7603894
+- 23:15:32.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:15:32.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:15:32.078 DEBUG: StoreBrowserWindow(): hwnd = 7603894
+- 23:15:32.188 DEBUG: ClientHandler::OnAfterCreated()
+- 23:15:32.188 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:15:32.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.5126 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=4EB17E30E2DB233CC928B0F8C151A52B --mojo-platform-channel-handle=1784 /prefetch:2
+- 23:15:32.203 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:15:32.016 DEBUG: Command line string for the renderer process: "C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E4499546BFE135CBE4DB8B42672E2DCE --lang=en-US --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E4499546BFE135CBE4DB8B42672E2DCE --renderer-client-id=3 --mojo-platform-channel-handle=2372 /prefetch:1
+[0128/231532.819:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:15:32.063 DEBUG: OnBrowserCreated()
+- 23:15:34.391 DEBUG: OnContextCreated()
+[0128/231534.362:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/bootstrap/js/bootstrap.bundle.min.js (6)
+- 23:15:34.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 23:23:22.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 23:23:22.016 DEBUG: OnContextCreated()
+[0128/232322.824:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'fn' of undefined", source: http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js (6)
+- 23:23:23.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 23:53:04.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 23:53:05.782 DEBUG: OnContextCreated()
+[0128/235305.327:INFO:CONSOLE(177)] "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools", source: http://127.0.0.1:8000/login (177)
+[0128/235305.374:INFO:CONSOLE(182)] "[object Object]", source: http://127.0.0.1:8000/login (182)
+[0128/235305.667:INFO:CONSOLE(182)] "Uncaught TypeError: r.join(...).trimEnd is not a function", source: http://127.0.0.1:8000/login (182)
+[0128/235305.696:INFO:CONSOLE(177)] "The above error occurred in the <qc> component:
+
+    at qc (http://127.0.0.1:8000/login:182:130329)
+    at zc (http://127.0.0.1:8000/login:182:124480)
+    at div
+    at section
+    at Vc (http://127.0.0.1:8000/login:182:126864)
+    at div
+    at xf (http://127.0.0.1:8000/login:182:161165)
+    at _f (http://127.0.0.1:8000/login:182:161861)
+    at div
+    at zc (http://127.0.0.1:8000/login:182:124480)
+    at Pf (http://127.0.0.1:8000/login:182:163721)
+    at section
+    at Lv (http://127.0.0.1:8000/login:182:287044)
+    at main
+    at ve (http://127.0.0.1:8000/login:177:307453)
+    at Oe (http://127.0.0.1:8000/login:177:309013)
+    at zc (http://127.0.0.1:8000/login:182:124480)
+    at Mv (http://127.0.0.1:8000/login:182:288650)
+
+React will try to recreate this component tree from scratch using the error boundary you provided, zc.", source: http://127.0.0.1:8000/login (177)
+- 23:53:05.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 23:53:18.656 DEBUG: WM_DESTROY
+- 23:53:18.656 DEBUG: RemoveBrowserWindow(): hwnd = 7603894
+- 23:53:18.656 INFO: Stopping Mongoose web server
+- 23:53:18.656 DEBUG: Mongoose webserver stopped immediately
+- 23:53:18.656 DEBUG: OnBeforeClose() hwnd=1966960
+- 23:53:18.656 DEBUG: RemoveBrowserWindow(): hwnd = 1966960
+- 23:53:18.656 DEBUG: GetBrowserWindow(): not found, hwnd = 1966960
+- 23:53:18.656 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:53:18.656 DEBUG: Calling CefQuitMessageLoop()
+- 23:53:18.797 INFO: Ended application
+- 23:53:18.797 INFO: --------------------------------------------------------
+- 17:23:34.016 INFO: --------------------------------------------------------
+- 17:23:34.016 INFO: Started application
+- 17:23:34.016 INFO: Logging to: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log
+- 17:23:34.016 INFO: Log level = DEBUG4
+- 17:23:34.016 INFO: Starting Mongoose 3.9c web server
+- 17:23:34.016 INFO: WWW directory: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\www\public\
+- 17:23:34.016 INFO: Index files: index.php
+- 17:23:34.016 INFO: CGI interpreter: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\php\php-cgi.exe
+- 17:23:34.016 INFO: CGI pattern: **.php$
+- 17:23:34.016 INFO: Hide files patterns: 
+- 17:23:34.016 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ATLASP~1\AppData\Local\Temp\
+- 17:23:34.016 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=home421602321.1and1.data.host,PHPDESKTOP_VERSION=57.0
+- 17:23:34.016 WARNING: set_ports_option: home421602321.1and1.data.host:22: invalid port spec. Expecting list of: [IP_ADDRESS:]PORT[s|r]
+- 17:23:34.110 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:35.219 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:35.328 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:35.438 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:35.563 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:35.672 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:35.782 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:35.891 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:35.000 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:36.110 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:36.219 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:36.328 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:36.438 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:36.547 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:36.657 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:36.766 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:36.891 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:36.000 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:37.125 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:37.250 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:37.360 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:37.485 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:37.594 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:37.703 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:37.813 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:37.922 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:37.032 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:38.141 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:38.250 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:38.360 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:38.469 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:38.578 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:38.688 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:38.797 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:38.922 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:38.032 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:39.141 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:39.250 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:39.360 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:39.469 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:39.578 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:39.688 DEBUG: GetBrowserWindow(): not found, hwnd = 1900676
+- 17:23:41.000 INFO: --------------------------------------------------------
+- 17:23:41.000 INFO: Started application
+- 17:23:41.000 INFO: Logging to: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log
+- 17:23:41.000 INFO: Log level = DEBUG4
+- 17:23:41.000 INFO: Starting Mongoose 3.9c web server
+- 17:23:41.000 INFO: WWW directory: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\www\public\
+- 17:23:41.000 INFO: Index files: index.php
+- 17:23:41.000 INFO: CGI interpreter: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\php\php-cgi.exe
+- 17:23:41.000 INFO: CGI pattern: **.php$
+- 17:23:41.000 INFO: Hide files patterns: 
+- 17:23:41.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ATLASP~1\AppData\Local\Temp\
+- 17:23:41.000 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=home421602321.1and1.data.host,PHPDESKTOP_VERSION=57.0
+- 17:23:41.015 WARNING: set_ports_option: home421602321.1and1.data.host:22: invalid port spec. Expecting list of: [IP_ADDRESS:]PORT[s|r]
+- 17:23:42.109 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:42.219 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:42.328 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:42.437 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:42.547 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:42.656 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:42.765 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:42.875 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:42.984 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:43.094 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:43.203 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:43.328 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:43.437 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:43.547 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:43.672 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:43.781 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:43.906 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:43.015 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:44.125 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:44.234 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:44.344 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:44.453 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:44.562 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:44.672 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:44.781 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:44.890 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:44.000 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:45.109 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:45.219 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:45.328 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:45.437 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:45.547 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:45.672 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:45.781 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:45.890 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:45.000 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:46.109 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:46.219 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:46.328 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:46.437 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:46.547 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:46.656 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:46.765 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:46.875 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:46.984 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:47.094 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:47.219 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:47.328 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:47.437 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:47.547 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:47.656 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:47.765 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:47.875 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:47.984 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:48.094 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:48.203 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:48.312 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:48.422 DEBUG: GetBrowserWindow(): not found, hwnd = 1966212
+- 17:23:50.000 INFO: --------------------------------------------------------
+- 17:23:50.000 INFO: Started application
+- 17:23:50.000 INFO: Logging to: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log
+- 17:23:50.000 INFO: Log level = DEBUG4
+- 17:23:50.000 INFO: Starting Mongoose 3.9c web server
+- 17:23:50.000 INFO: WWW directory: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\www\public\
+- 17:23:50.000 INFO: Index files: index.php
+- 17:23:50.000 INFO: CGI interpreter: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\php\php-cgi.exe
+- 17:23:50.000 INFO: CGI pattern: **.php$
+- 17:23:50.000 INFO: Hide files patterns: 
+- 17:23:50.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ATLASP~1\AppData\Local\Temp\
+- 17:23:50.000 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=home421602321.1and1.data.host,PHPDESKTOP_VERSION=57.0
+- 17:23:50.016 WARNING: set_ports_option: home421602321.1and1.data.host:22: invalid port spec. Expecting list of: [IP_ADDRESS:]PORT[s|r]
+- 17:23:50.125 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:50.234 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:50.344 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:51.453 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:51.563 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:51.672 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:51.781 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:51.891 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:51.016 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:51.125 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:51.234 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:51.344 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:52.453 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:52.563 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:52.672 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:52.781 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:52.891 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:52.000 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:52.109 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:52.234 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:52.344 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:53.453 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:53.563 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:53.672 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:53.781 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:53.891 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:53.000 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:53.109 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:53.219 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:53.328 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:54.438 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:54.547 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:54.656 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:54.766 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:54.875 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:54.984 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:54.094 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:54.203 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:54.313 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:55.422 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:55.531 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:55.641 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:55.750 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:55.859 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:55.969 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:55.078 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:55.188 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:55.297 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:56.406 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:56.516 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:56.625 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:56.734 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:56.844 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:56.953 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:56.063 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:56.172 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:56.281 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:57.391 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:57.500 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:57.609 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:57.734 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:57.844 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:57.953 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:57.063 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:57.172 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:57.281 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:58.391 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:58.500 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:58.609 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:58.719 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:58.828 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:58.938 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:58.047 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:58.156 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:58.266 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:58.375 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:59.484 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:59.594 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:59.703 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:59.813 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:59.922 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:59.031 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:59.141 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:59.250 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:23:59.359 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:24:00.469 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:24:00.578 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:24:00.688 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:24:00.797 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 17:24:00.906 DEBUG: GetBrowserWindow(): not found, hwnd = 2294858
+- 21:05:49.000 INFO: --------------------------------------------------------
+- 21:05:49.000 INFO: Started application
+- 21:05:49.000 INFO: Logging to: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log
+- 21:05:49.000 INFO: Log level = DEBUG4
+- 21:05:49.000 INFO: Starting Mongoose 3.9c web server
+- 21:05:49.000 INFO: WWW directory: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\www\public\
+- 21:05:49.000 INFO: Index files: index.php
+- 21:05:49.000 INFO: CGI interpreter: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\php\php-cgi.exe
+- 21:05:49.000 INFO: CGI pattern: **.php$
+- 21:05:49.000 INFO: Hide files patterns: 
+- 21:05:49.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ATLASP~1\AppData\Local\Temp\
+- 21:05:49.000 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.0,PHPDESKTOP_VERSION=57.0
+- 21:05:49.000 WARNING: set_ports_option: cannot bind to 127.0.0.0:8000: 10049 (Bad file descriptor)
+- 21:05:50.109 DEBUG: GetBrowserWindow(): not found, hwnd = 1443690
+- 21:05:50.219 DEBUG: GetBrowserWindow(): not found, hwnd = 1443690
+- 21:05:50.328 DEBUG: GetBrowserWindow(): not found, hwnd = 1443690
+- 21:05:50.437 DEBUG: GetBrowserWindow(): not found, hwnd = 1443690
+- 21:05:50.547 DEBUG: GetBrowserWindow(): not found, hwnd = 1443690
+- 21:05:50.656 DEBUG: GetBrowserWindow(): not found, hwnd = 1443690
+- 21:05:50.765 DEBUG: GetBrowserWindow(): not found, hwnd = 1443690
+- 21:05:50.875 DEBUG: GetBrowserWindow(): not found, hwnd = 1443690
+- 21:05:50.984 DEBUG: GetBrowserWindow(): not found, hwnd = 1443690
+- 21:05:51.094 DEBUG: GetBrowserWindow(): not found, hwnd = 1443690
+- 21:05:51.203 DEBUG: GetBrowserWindow(): not found, hwnd = 1443690
+- 21:05:51.312 DEBUG: GetBrowserWindow(): not found, hwnd = 1443690
+- 21:05:51.422 DEBUG: GetBrowserWindow(): not found, hwnd = 1443690
+- 21:05:51.531 DEBUG: GetBrowserWindow(): not found, hwnd = 1443690
+- 21:05:51.640 DEBUG: GetBrowserWindow(): not found, hwnd = 1443690
+- 21:05:51.750 DEBUG: GetBrowserWindow(): not found, hwnd = 1443690
+- 21:07:27.000 INFO: --------------------------------------------------------
+- 21:07:27.000 INFO: Started application
+- 21:07:27.000 INFO: Logging to: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log
+- 21:07:27.000 INFO: Log level = DEBUG4
+- 21:07:27.015 INFO: Starting Mongoose 3.9c web server
+- 21:07:27.015 INFO: WWW directory: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\www\public\
+- 21:07:27.015 INFO: Index files: index.php
+- 21:07:27.015 INFO: CGI interpreter: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\php\php-cgi.exe
+- 21:07:27.015 INFO: CGI pattern: **.php$
+- 21:07:27.015 INFO: Hide files patterns: 
+- 21:07:27.015 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ATLASP~1\AppData\Local\Temp\
+- 21:07:27.015 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 21:07:27.015 INFO: Web server url: http://127.0.0.1:8000/
+- 21:07:27.015 INFO: remote_debugging_port = 51246
+- 21:07:27.031 DEBUG: Command line string for the browser process: "C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\setup.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log" --remote-debugging-port=51246
+- 21:07:29.078 DEBUG: App::OnContextInitialized()
+- 21:07:29.078 DEBUG: Window max width/height = 1286/680
+- 21:07:29.078 DEBUG: GetBrowserWindow(): not found, hwnd = 2033476
+- 21:07:29.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:07:29.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:07:29.078 DEBUG: StoreBrowserWindow(): hwnd = 2033476
+- 21:07:29.281 DEBUG: ClientHandler::OnAfterCreated()
+- 21:07:29.281 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:07:29.343 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:07:29.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\setup.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.5126 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log" --service-request-channel-token=543D2F59232E233C1AAAFD72E33C9E5D --mojo-platform-channel-handle=1860 /prefetch:2
+- 21:07:29.015 DEBUG: Command line string for the renderer process: "C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\setup.exe" --type=renderer --no-sandbox --primordial-pipe-token=4CA4186B75C35651D731EBA14E2C0307 --lang=en-US --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4CA4186B75C35651D731EBA14E2C0307 --renderer-client-id=3 --mojo-platform-channel-handle=2448 /prefetch:1
+[0129/210730.010:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 21:07:30.390 DEBUG: OnBrowserCreated()
+- 21:07:33.312 DEBUG: OnContextCreated()
+[0129/210734.301:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/bootstrap/js/bootstrap.bundle.min.js (6)
+- 21:07:34.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 21:09:13.640 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 21:09:14.890 DEBUG: OnContextCreated()
+[0129/210914.620:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'fn' of undefined", source: http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js (6)
+- 21:09:15.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:09:32.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 21:09:32.343 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:8000/login
+- 21:09:32.343 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:09:32.343 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 21:09:35.515 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:8000/login
+- 21:09:35.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:09:35.515 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 21:09:35.625 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:8000/login
+- 21:09:35.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:09:35.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 21:09:37.250 DEBUG: OnContextCreated()
+[0129/210938.054:INFO:CONSOLE(177)] "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools", source: http://127.0.0.1:8000/login (177)
+[0129/210938.102:INFO:CONSOLE(182)] "[object Object]", source: http://127.0.0.1:8000/login (182)
+[0129/210938.517:INFO:CONSOLE(182)] "Uncaught TypeError: r.join(...).trimEnd is not a function", source: http://127.0.0.1:8000/login (182)
+[0129/210938.584:INFO:CONSOLE(177)] "The above error occurred in the <qc> component:
+
+    at qc (http://127.0.0.1:8000/login:182:130329)
+    at zc (http://127.0.0.1:8000/login:182:124480)
+    at div
+    at section
+    at Vc (http://127.0.0.1:8000/login:182:126864)
+    at div
+    at xf (http://127.0.0.1:8000/login:182:161165)
+    at _f (http://127.0.0.1:8000/login:182:161861)
+    at div
+    at zc (http://127.0.0.1:8000/login:182:124480)
+    at Pf (http://127.0.0.1:8000/login:182:163721)
+    at section
+    at Lv (http://127.0.0.1:8000/login:182:287044)
+    at main
+    at ve (http://127.0.0.1:8000/login:177:307453)
+    at Oe (http://127.0.0.1:8000/login:177:309013)
+    at zc (http://127.0.0.1:8000/login:182:124480)
+    at Mv (http://127.0.0.1:8000/login:182:288650)
+
+React will try to recreate this component tree from scratch using the error boundary you provided, zc.", source: http://127.0.0.1:8000/login (177)
+- 21:09:39.343 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:12:47.703 DEBUG: WM_DESTROY
+- 21:12:47.703 DEBUG: RemoveBrowserWindow(): hwnd = 2033476
+- 21:12:47.703 INFO: Stopping Mongoose web server
+- 21:12:47.703 DEBUG: Mongoose webserver stopped immediately
+- 21:12:47.718 DEBUG: OnBeforeClose() hwnd=722802
+- 21:12:47.718 DEBUG: RemoveBrowserWindow(): hwnd = 722802
+- 21:12:47.718 DEBUG: GetBrowserWindow(): not found, hwnd = 722802
+- 21:12:47.718 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:12:47.718 DEBUG: Calling CefQuitMessageLoop()
+- 21:12:47.812 INFO: Ended application
+- 21:12:47.812 INFO: --------------------------------------------------------
+- 21:12:55.000 INFO: --------------------------------------------------------
+- 21:12:55.000 INFO: Started application
+- 21:12:55.000 INFO: Logging to: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log
+- 21:12:55.000 INFO: Log level = DEBUG4
+- 21:12:55.016 INFO: Starting Mongoose 3.9c web server
+- 21:12:55.016 INFO: WWW directory: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\www\public\
+- 21:12:55.016 INFO: Index files: index.php
+- 21:12:55.016 INFO: CGI interpreter: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\php\php-cgi.exe
+- 21:12:55.016 INFO: CGI pattern: **.php$
+- 21:12:55.016 INFO: Hide files patterns: 
+- 21:12:55.016 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ATLASP~1\AppData\Local\Temp\
+- 21:12:55.016 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 21:12:55.016 INFO: Web server url: http://127.0.0.1:8000/
+- 21:12:55.016 INFO: remote_debugging_port = 63443
+- 21:12:55.016 DEBUG: Command line string for the browser process: "C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\setup.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log" --remote-debugging-port=63443
+- 21:12:55.094 DEBUG: App::OnContextInitialized()
+- 21:12:55.094 DEBUG: Window max width/height = 1286/680
+- 21:12:55.094 DEBUG: GetBrowserWindow(): not found, hwnd = 1705814
+- 21:12:55.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:12:55.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:12:55.094 DEBUG: StoreBrowserWindow(): hwnd = 1705814
+- 21:12:55.281 DEBUG: ClientHandler::OnAfterCreated()
+- 21:12:55.281 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:12:55.297 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:12:55.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\setup.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.5126 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log" --service-request-channel-token=09FF9EC09D56A5E4B8DCA41F59739526 --mojo-platform-channel-handle=1852 /prefetch:2
+- 21:12:55.016 DEBUG: Command line string for the renderer process: "C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\setup.exe" --type=renderer --no-sandbox --primordial-pipe-token=2F16EA7C87CB74C8B4464AEC0E1451C2 --lang=en-US --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=2F16EA7C87CB74C8B4464AEC0E1451C2 --renderer-client-id=3 --mojo-platform-channel-handle=2488 /prefetch:1
+[0129/211256.043:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 21:12:56.157 DEBUG: OnBrowserCreated()
+- 21:12:57.672 DEBUG: OnContextCreated()
+[0129/211257.821:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/bootstrap/js/bootstrap.bundle.min.js (6)
+- 21:12:58.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 21:13:05.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 21:13:05.907 DEBUG: OnContextCreated()
+[0129/211305.941:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'fn' of undefined", source: http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js (6)
+- 21:13:06.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:13:36.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 21:13:37.297 DEBUG: OnContextCreated()
+[0129/211337.313:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'fn' of undefined", source: http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js (6)
+- 21:13:37.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:13:53.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 21:13:54.063 DEBUG: OnContextCreated()
+[0129/211354.060:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'fn' of undefined", source: http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js (6)
+- 21:13:54.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:14:25.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 21:14:27.454 DEBUG: OnContextCreated()
+- 21:14:28.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/etudiant_absences
+- 21:14:50.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/etudiant_absences
+- 21:14:51.094 DEBUG: OnContextCreated()
+[0129/211451.298:INFO:CONSOLE(155)] "%cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools", source: http://127.0.0.1:8000/etudiant (155)
+[0129/211451.348:INFO:CONSOLE(160)] "[object Object]", source: http://127.0.0.1:8000/etudiant (160)
+[0129/211451.658:INFO:CONSOLE(160)] "Uncaught TypeError: r.join(...).trimEnd is not a function", source: http://127.0.0.1:8000/etudiant (160)
+[0129/211451.683:INFO:CONSOLE(155)] "The above error occurred in the <qc> component:
+
+    at qc (http://127.0.0.1:8000/etudiant:160:130329)
+    at zc (http://127.0.0.1:8000/etudiant:160:124480)
+    at div
+    at section
+    at Vc (http://127.0.0.1:8000/etudiant:160:126864)
+    at div
+    at xf (http://127.0.0.1:8000/etudiant:160:161165)
+    at _f (http://127.0.0.1:8000/etudiant:160:161861)
+    at div
+    at zc (http://127.0.0.1:8000/etudiant:160:124480)
+    at Pf (http://127.0.0.1:8000/etudiant:160:163721)
+    at section
+    at Lv (http://127.0.0.1:8000/etudiant:160:287044)
+    at main
+    at ve (http://127.0.0.1:8000/etudiant:155:307453)
+    at Oe (http://127.0.0.1:8000/etudiant:155:309013)
+    at zc (http://127.0.0.1:8000/etudiant:160:124480)
+    at Mv (http://127.0.0.1:8000/etudiant:160:288650)
+
+React will try to recreate this component tree from scratch using the error boundary you provided, zc.", source: http://127.0.0.1:8000/etudiant (155)
+- 21:14:52.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/etudiant
+- 21:15:07.875 DEBUG: WM_DESTROY
+- 21:15:07.875 DEBUG: RemoveBrowserWindow(): hwnd = 1705814
+- 21:15:07.875 INFO: Stopping Mongoose web server
+- 21:15:07.875 DEBUG: Mongoose webserver stopped immediately
+- 21:15:07.875 DEBUG: OnBeforeClose() hwnd=919414
+- 21:15:07.875 DEBUG: RemoveBrowserWindow(): hwnd = 919414
+- 21:15:07.875 DEBUG: GetBrowserWindow(): not found, hwnd = 919414
+- 21:15:07.875 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:15:07.875 DEBUG: Calling CefQuitMessageLoop()
+- 21:15:07.953 INFO: Ended application
+- 21:15:07.953 INFO: --------------------------------------------------------
+- 21:15:12.000 INFO: --------------------------------------------------------
+- 21:15:12.000 INFO: Started application
+- 21:15:12.000 INFO: Logging to: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log
+- 21:15:12.000 INFO: Log level = DEBUG4
+- 21:15:12.000 INFO: Starting Mongoose 3.9c web server
+- 21:15:12.000 INFO: WWW directory: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\www\public\
+- 21:15:12.000 INFO: Index files: index.php
+- 21:15:12.000 INFO: CGI interpreter: C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\php\php-cgi.exe
+- 21:15:12.000 INFO: CGI pattern: **.php$
+- 21:15:12.000 INFO: Hide files patterns: 
+- 21:15:12.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\ATLASP~1\AppData\Local\Temp\
+- 21:15:12.000 INFO: CGI environment variables set: TMP=C:\WINDOWS\Temp,TEMP=C:\WINDOWS\Temp,TMPDIR=C:\WINDOWS\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 21:15:12.016 INFO: Web server url: http://127.0.0.1:8000/
+- 21:15:12.016 INFO: remote_debugging_port = 49448
+- 21:15:12.016 DEBUG: Command line string for the browser process: "C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\setup.exe" --no-sandbox --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log" --remote-debugging-port=49448
+- 21:15:12.094 DEBUG: App::OnContextInitialized()
+- 21:15:12.094 DEBUG: Window max width/height = 1286/680
+- 21:15:12.094 DEBUG: GetBrowserWindow(): not found, hwnd = 657208
+- 21:15:12.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 21:15:12.109 DEBUG: BrowserWindow::CreateBrowserControl()
+- 21:15:12.109 DEBUG: StoreBrowserWindow(): hwnd = 657208
+- 21:15:12.250 DEBUG: ClientHandler::OnAfterCreated()
+- 21:15:12.250 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 21:15:12.281 DEBUG: OnLoadingStateChange: loading=1, url=
+- 21:15:12.000 DEBUG: Command line string for the gpu-process process: "C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\setup.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0a16 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.5126 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log" --service-request-channel-token=C44ECAE8B34F44B9EF072A65B9AC6B95 --mojo-platform-channel-handle=1848 /prefetch:2
+- 21:15:12.000 DEBUG: Command line string for the renderer process: "C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\setup.exe" --type=renderer --no-sandbox --primordial-pipe-token=03594C18C4B3FB92E3E653D8342BD124 --lang=en-US --lang=en-US --log-file="C:\Users\ATLAS PRO ELECTRO\Downloads\desktop\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=03594C18C4B3FB92E3E653D8342BD124 --renderer-client-id=3 --mojo-platform-channel-handle=2452 /prefetch:1
+- 21:15:13.062 DEBUG: OnBrowserCreated()
+[0129/211513.018:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 21:15:14.406 DEBUG: OnContextCreated()
+[0129/211514.552:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/bootstrap/js/bootstrap.bundle.min.js (6)
+- 21:15:14.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 21:16:08.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 21:16:09.453 DEBUG: OnContextCreated()
+- 21:16:10.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/etudiant_absences
+- 21:16:12.438 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/etudiant_absences
+- 21:16:13.328 DEBUG: OnContextCreated()
+[0129/211613.371:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/bootstrap/js/bootstrap.bundle.min.js (6)
+- 21:16:13.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 21:16:19.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 21:16:19.890 DEBUG: OnContextCreated()
+[0129/211619.884:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'fn' of undefined", source: http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js (6)
+- 21:16:20.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:16:26.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 21:16:26.031 DEBUG: OnContextCreated()
+[0129/211627.034:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'fn' of undefined", source: http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js (6)
+- 21:16:27.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:17:14.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 21:17:14.047 DEBUG: OnContextCreated()
+[0129/211715.030:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'fn' of undefined", source: http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js (6)
+- 21:17:15.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:18:10.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 21:18:11.656 DEBUG: OnContextCreated()
+- 21:18:12.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/etudiant_absences
+- 21:20:18.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/etudiant_absences
+- 21:20:19.172 DEBUG: OnContextCreated()
+[0129/212019.239:INFO:CONSOLE(6)] "Uncaught SyntaxError: Unexpected token ...", source: http://127.0.0.1:8000/assets/vendor/bootstrap/js/bootstrap.bundle.min.js (6)
+- 21:20:19.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/
+- 21:20:26.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/
+- 21:20:26.984 DEBUG: OnContextCreated()
+[0129/212026.959:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'fn' of undefined", source: http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js (6)
+- 21:20:27.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:20:33.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 21:20:34.781 DEBUG: OnContextCreated()
+[0129/212034.761:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'fn' of undefined", source: http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js (6)
+- 21:20:34.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:21:40.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 21:21:41.219 DEBUG: OnContextCreated()
+[0129/212141.210:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'fn' of undefined", source: http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js (6)
+- 21:21:41.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:21:52.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 21:21:53.312 DEBUG: OnContextCreated()
+[0129/212153.298:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'fn' of undefined", source: http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js (6)
+- 21:21:53.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:22:16.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 21:22:17.078 DEBUG: OnContextCreated()
+[0129/212217.066:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'fn' of undefined", source: http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js (6)
+- 21:22:17.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/login
+- 21:25:50.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/login
+- 21:25:51.500 DEBUG: OnContextCreated()
+- 21:25:52.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/absences_coord
+- 21:26:41.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/absences_coord
+- 21:26:42.734 DEBUG: OnContextCreated()
+[0129/212642.948:INFO:CONSOLE(179)] "Uncaught TypeError: Cannot set property 'innerHTML' of null", source: http://127.0.0.1:8000/absence (179)
+- 21:26:43.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/absence
+- 21:26:44.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/absence
+- 21:26:45.109 DEBUG: OnContextCreated()
+- 21:26:45.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/absences_coord
+[0129/212808.950:INFO:CONSOLE(604)] "[object Object]", source: http://127.0.0.1:8000/absences_coord (604)
+- 21:28:14.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/absences_coord
+- 21:28:14.484 DEBUG: OnContextCreated()
+[0129/212814.849:INFO:CONSOLE(179)] "Uncaught TypeError: Cannot set property 'innerHTML' of null", source: http://127.0.0.1:8000/absence (179)
+- 21:28:15.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/absence
+- 21:28:31.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/absence
+- 21:28:31.672 DEBUG: OnContextCreated()
+[0129/212831.981:INFO:CONSOLE(179)] "Uncaught TypeError: Cannot set property 'innerHTML' of null", source: http://127.0.0.1:8000/absence (179)
+- 21:28:32.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/absence
+- 21:28:36.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/absence
+- 21:28:36.500 DEBUG: OnContextCreated()
+- 21:28:36.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/emploi_coordinateur
+- 21:28:39.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/emploi_coordinateur
+- 21:28:39.672 DEBUG: OnContextCreated()
+- 21:28:40.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/absences_coord
+- 21:28:45.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/absences_coord
+- 21:28:45.969 DEBUG: OnContextCreated()
+- 21:28:46.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/emploi_coordinateur
+- 21:29:38.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/emploi_coordinateur
+- 21:29:38.547 DEBUG: OnContextCreated()
+[0129/212938.852:INFO:CONSOLE(179)] "Uncaught TypeError: Cannot set property 'innerHTML' of null", source: http://127.0.0.1:8000/absence (179)
+- 21:29:39.515 DEBUG: OnContextCreated()
+[0129/212939.741:INFO:CONSOLE(179)] "Uncaught TypeError: Cannot set property 'innerHTML' of null", source: http://127.0.0.1:8000/absence (179)
+- 21:29:39.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/absence
+- 21:29:42.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/absence
+- 21:29:42.750 DEBUG: OnContextCreated()
+[0129/212942.940:INFO:CONSOLE(179)] "Uncaught TypeError: Cannot set property 'innerHTML' of null", source: http://127.0.0.1:8000/absence (179)
+- 21:29:43.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/absence
+- 21:30:37.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/absence
+- 21:30:38.437 DEBUG: OnContextCreated()
+[0129/213038.724:INFO:CONSOLE(179)] "Uncaught TypeError: Cannot set property 'innerHTML' of null", source: http://127.0.0.1:8000/absence (179)
+- 21:30:38.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/absence
+- 21:30:41.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:8000/absence
+- 21:30:41.406 DEBUG: OnContextCreated()
+- 21:30:41.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:8000/absences_coord
+[0129/213048.862:INFO:CONSOLE(635)] "[object Object],[object Object],[object Object]", source: http://127.0.0.1:8000/absences_coord (635)
+[0129/213048.866:INFO:CONSOLE(756)] "[object Object],[object Object],[object Object]", source: http://127.0.0.1:8000/absences_coord (756)
+[0129/213101.237:INFO:CONSOLE(604)] "[object Object]", source: http://127.0.0.1:8000/absences_coord (604)
+[0129/213103.128:INFO:CONSOLE(635)] "", source: http://127.0.0.1:8000/absences_coord (635)
+[0129/213103.130:INFO:CONSOLE(756)] "", source: http://127.0.0.1:8000/absences_coord (756)
+- 21:42:00.125 DEBUG: WM_DESTROY
+- 21:42:00.125 DEBUG: RemoveBrowserWindow(): hwnd = 657208
+- 21:42:00.125 INFO: Stopping Mongoose web server
+- 21:42:00.125 DEBUG: Mongoose webserver stopped immediately
+- 21:42:00.141 DEBUG: OnBeforeClose() hwnd=2229866
+- 21:42:00.141 DEBUG: RemoveBrowserWindow(): hwnd = 2229866
+- 21:42:00.141 DEBUG: GetBrowserWindow(): not found, hwnd = 2229866
+- 21:42:00.141 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 21:42:00.141 DEBUG: Calling CefQuitMessageLoop()
+- 21:42:00.250 INFO: Ended application
+- 21:42:00.250 INFO: --------------------------------------------------------

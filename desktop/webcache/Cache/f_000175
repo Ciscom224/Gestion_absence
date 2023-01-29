@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="http://127.0.0.1:8000/js/jquery.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="Dashboard">
+  <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+  <meta name="csrf-token" content="hSdpp1IfMHiPNpd1MZnMaYIBLvTlgk0CUxWwKtq7">
+  
+  <title>Absence</title>
+    <meta name="csrf-token" content="hSdpp1IfMHiPNpd1MZnMaYIBLvTlgk0CUxWwKtq7">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="http://127.0.0.1:8000/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--external css-->
+  <link href="http://127.0.0.1:8000/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/css/zabuto_calendar.css">
+  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/lib/gritter/css/jquery.gritter.css" />
+  <!-- Custom styles for this template -->
+  <link href="http://127.0.0.1:8000/lib/advanced-datatable/css/demo_page.css" rel="stylesheet" />
+  <link href="http://127.0.0.1:8000/lib/advanced-datatable/css/demo_table.css" rel="stylesheet" />
+  <link rel="stylesheet" href="http://127.0.0.1:8000/lib/advanced-datatable/css/DT_bootstrap.css" />
+  <link href="http://127.0.0.1:8000/css/style.css" rel="stylesheet">
+  <link href="http://127.0.0.1:8000/css1/app.css" rel="stylesheet">
+  <link href="http://127.0.0.1:8000/css1/master.css" rel="stylesheet">
+  <link href="http://127.0.0.1:8000/css1/materialize.css" rel="stylesheet">
+  <link href="http://127.0.0.1:8000/css/style-responsive.css" rel="stylesheet">
+  <script src="http://127.0.0.1:8000/lib/chart-master/Chart.js"></script>
+  <style>
+    #tbody td{
+      border: 1px solid #999;
+      text-align: center
+    }
+</style>
+
+
+  <!-- =======================================================
+    Template Name: Dashio
+    Template URL: https://templatemag.com/dashio-bootstrap-admin-template/
+    Author: TemplateMag.com
+    License: https://templatemag.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+  <section id="container">
+    <!-- **********************************************************************************************************************************************************
+        TOP BAR CONTENT & NOTIFICATIONS
+        *********************************************************************************************************************************************************** -->
+    <!--header start-->
+    <header class="header black-bg">
+      <div class="sidebar-toggle-box">
+        <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+      </div>
+      <!--logo start-->
+      <a href="dashboard" class="logo"><b>ENSA<sub
+                style="margin-left: 1px; font-size: 14px;color:aqua"
+                >tanger</sub
+              ></b></a>
+      <!--logo end-->
+
+      <div class="top-menu">
+        <ul class="nav pull-right top-menu">
+          <li><a class="logout" href="http://127.0.0.1:8000/logout">Logout</a></li>
+        </ul>
+      </div>
+    </header>
+    <!--header end-->
+    <!-- **********************************************************************************************************************************************************
+        MAIN SIDEBAR MENU
+        *********************************************************************************************************************************************************** -->
+    <!--sidebar start-->
+    <aside>
+      <div id="sidebar" class="nav-collapse ">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu" id="nav-accordion">
+          <p class="centered"><a href=""><img src="http://127.0.0.1:8000/users/1_1656171225.jpg" alt="1_1656171225.jpg" class="rounded-circle" width="80" height="80"></a></p>
+
+          <h5 class="centered"> <strong>zineb zineb</strong></h5>
+          <!--string(5) "coord"
+string(16) "1_1656171225.jpg"
+-->
+                    <h5 class="centered">Vous etes un Professeur (Coordinateur)</h5>
+           
+                                          <li class="mt">
+                  <a class="active" href="http://127.0.0.1:8000/absences_coord">
+                    <i class="fa fa-dashboard"></i>
+                    <span>Dashboard</span>
+                  </a>
+                </li>
+                                    
+           
+                                            <li class="mt">
+                    <a class="active" href="http://127.0.0.1:8000/emploi_coordinateur">
+                      <i class="fa fa-dashboard"></i>
+                      <span>Emploi</span>
+                    </a>
+                  </li>
+                                    
+           
+                          <li class="sub-menu">
+                <a href="http://127.0.0.1:8000/absence">
+                  <i class="fa fa-table"></i>
+                  <span>Absence</span>
+                </a>
+              </li>
+                                
+                            </ul>
+        <!-- sidebar menu end-->
+      </div>
+    </aside>
+    <!--sidebar end-->
+    <!-- **********************************************************************************************************************************************************
+        MAIN CONTENT
+        *********************************************************************************************************************************************************** -->
+    <!--main content start-->
+    <section id="main-content">
+      <section class="wrapper">
+        <div class="row">
+          <div class="col-lg-12 main-chart">
+              <center>
+    <div class="border-head">
+      <h3 style="color: #08616f; font-size:30px"><strong>Absences etudiants</strong></h3>
+    </div>
+  </center>
+  <br><br>
+            <div>
+            <form style="" method="POST" id="myform" style="margin-bottom: 10px">
+            <input type="hidden" name="_token" value="hSdpp1IfMHiPNpd1MZnMaYIBLvTlgk0CUxWwKtq7">            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="">
+            <div class="form-group">
+	                <label for="cne">Filière & Moddule</label>
+	            	<select class="form-control" id="filieres" style="margin-bottom: 5px">
+	            		<option value="0" selected>Toutes les filières</option>
+                                      <option value="1659143536">aa</option>
+                                  </select>	       
+                
+	            	<select name="module" class="form-control" id="matieres">
+	            		<option value="0" selected>Tous les modules & matieres</option>
+                </select>	
+                <span class="btn btn-primary" style="margin: 5px auto; background:#08616f" id="refresh">Actualiser</span>
+                
+                </div>
+              </div>
+            </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="form-group">
+	                <label for="cne">Mois & annees <span id="s"></span></label>
+          
+                <select name="month" id="month" class="form-control" style="margin-bottom: 5px">
+                    
+                    <option value="01"selected>January</option><option value="02">February</option><option value="03">March</option><option value="04">April</option><option value="05">May</option><option value="06">June</option><option value="07">July</option><option value="08">August</option><option value="09">September</option><option value="10">October</option><option value="11">November</option><option value="12">December</option>                    
+                </select>
+                <select name="year" id="year" class="form-control">
+                    <option value="2023"selected>2023 </option><option value="2022">2022 </option><option value="2021">2021 </option><option value="2020">2020 </option><option value="2019">2019 </option><option value="2018">2018 </option><option value="2017">2017 </option><option value="2016">2016 </option><option value="2015">2015 </option><option value="2014">2014 </option><option value="2013">2013 </option><option value="2012">2012 </option><option value="2011">2011 </option>                </select>  
+                
+              </div></div>
+              </form>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div style="margin: 0 15px">
+        
+        <div class=" col s12 m12 l12 xl12"  style="border: 4px solid #64c3c2; overflow-x:auto; right: 10px; left: 10px; max-height:300px">
+          <div style="position: relative; left: 0px;right: 0px;">
+                <div class="">
+              <table cellpadding="0" cellspacing="0" border="0" class="display table table-bordered">
+                
+                <thead id="thead" style='position: -webkit-sticky;position: sticky;top: 0;z-index: 1;background: #fff; box-shadow:1px 1px 1px #ddd'>
+                  <tr>
+                    <th rowspan=2 style="padding: 28px;">CNE</th>
+                    <th rowspan=2 style="padding: 28px;">Nom</th>
+                    <th rowspan=2 style="padding: 28px;">Prénom</th>
+                    <th rowspan=2 style="padding: 28px;">Nombre d'absences/mois</th> 
+                    <th hidden="true">nom & prenom</th>
+                    <th hidden="true">mail</th>
+                    <th hidden="true">tele</th>
+                    <th hidden="true">sexe</th>
+                                                                <th colspan="4" style='text-align: center;'> 1 </th>
+                                            <th colspan="4" style='text-align: center;'> 2 </th>
+                                            <th colspan="4" style='text-align: center;'> 3 </th>
+                                            <th colspan="4" style='text-align: center;'> 4 </th>
+                                            <th colspan="4" style='text-align: center;'> 5 </th>
+                                            <th colspan="4" style='text-align: center;'> 6 </th>
+                                            <th colspan="4" style='text-align: center;'> 7 </th>
+                                            <th colspan="4" style='text-align: center;'> 8 </th>
+                                            <th colspan="4" style='text-align: center;'> 9 </th>
+                                            <th colspan="4" style='text-align: center;'> 10 </th>
+                                            <th colspan="4" style='text-align: center;'> 11 </th>
+                                            <th colspan="4" style='text-align: center;'> 12 </th>
+                                            <th colspan="4" style='text-align: center;'> 13 </th>
+                                            <th colspan="4" style='text-align: center;'> 14 </th>
+                                            <th colspan="4" style='text-align: center;'> 15 </th>
+                                            <th colspan="4" style='text-align: center;'> 16 </th>
+                                            <th colspan="4" style='text-align: center;'> 17 </th>
+                                            <th colspan="4" style='text-align: center;'> 18 </th>
+                                            <th colspan="4" style='text-align: center;'> 19 </th>
+                                            <th colspan="4" style='text-align: center;'> 20 </th>
+                                            <th colspan="4" style='text-align: center;'> 21 </th>
+                                            <th colspan="4" style='text-align: center;'> 22 </th>
+                                            <th colspan="4" style='text-align: center;'> 23 </th>
+                                            <th colspan="4" style='text-align: center;'> 24 </th>
+                                            <th colspan="4" style='text-align: center;'> 25 </th>
+                                            <th colspan="4" style='text-align: center;'> 26 </th>
+                                            <th colspan="4" style='text-align: center;'> 27 </th>
+                                            <th colspan="4" style='text-align: center;'> 28 </th>
+                                            <th colspan="4" style='text-align: center;'> 29 </th>
+                                            <th colspan="4" style='text-align: center;'> 30 </th>
+                                            <th colspan="4" style='text-align: center;'> 31 </th>
+                                      </tr>
+                  <tr class="border-top: 1px solid #ededed">
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                                <th style='text-align: center;'> 09h </th>
+                          <th style='text-align: center;'> 11h </th>
+                          <th style='text-align: center;'> 14h </th>
+                          <th style='text-align: center; border :1px solid #555'> 16h </th>
+                                        </tr>
+                </thead>
+                <tbody id="tbody">
+                                                  
+                  <tr class='gradeU' style='border-bottom:1.1px solid #aaa'>
+                    <td>123456</td>
+                    <td>Camille</td>
+                    <td>Turner</td>
+
+                                            <td><div style="text-align: center; color: rgb(155, 111, 111)"><strong>
+                                                      0             
+                        </td>
+
+                    <td hidden="true">Camille Turner</td>
+                    <td hidden="true">kenna69@example.com</td>
+                    <td hidden="true">0612345678</td>
+                    <td hidden="true">feminin</td>
+                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                      </tr>
+                                  
+                  <tr class='gradeU' style='border-bottom:1.1px solid #aaa'>
+                    <td>18-57575757</td>
+                    <td>bbbbbbbb</td>
+                    <td>bbbbbb</td>
+
+                                            <td><div style="text-align: center; color: rgb(155, 111, 111)"><strong>
+                                                      0             
+                        </td>
+
+                    <td hidden="true">bbbbbbbb bbbbbb</td>
+                    <td hidden="true">bbbb@gmail.com</td>
+                    <td hidden="true">099999999</td>
+                    <td hidden="true">feminin</td>
+                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                      </tr>
+                                  
+                  <tr class='gradeU' style='border-bottom:1.1px solid #aaa'>
+                    <td>1221212</td>
+                    <td>moha</td>
+                    <td>moha</td>
+
+                                            <td><div style="text-align: center; color: rgb(155, 111, 111)"><strong>
+                                                      0             
+                        </td>
+
+                    <td hidden="true">moha moha</td>
+                    <td hidden="true">moha@gmail.com</td>
+                    <td hidden="true">0999999</td>
+                    <td hidden="true">masculin</td>
+                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                        
+
+                                                    <td style='border-left: 1px solid #555'> </td><td> </td><td> </td><td style='border-right: 1px solid #555'> </td>                                      </tr>
+                                                </tbody>
+              </table>
+                  
+            </div></div></div></div>
+            
+           <script>
+             $(document).ready(function() {
+               $("#filieres").change(function(){
+                 $.ajaxSetup({
+                      headers: {
+                          'X-CSRF-TOKEN': $('meta[name="csrf_token"]').attr('content')
+                      }
+                  });
+                  var id=$("#filieres").val();
+                  $.ajax({  //create an ajax request to display.php
+                    type: "POST",
+                    url: "/getModules",   
+                    data:{id_filiere:id, _token:'hSdpp1IfMHiPNpd1MZnMaYIBLvTlgk0CUxWwKtq7'},
+                    success: function (data) {
+                      result = "";
+                      console.log(data);
+                      document.getElementById('matieres').innerHTML = "";
+                      
+                      jQuery.each(data, function() {
+                        var content = this.module + " ( " + this.libelle + " )";
+                        document.getElementById('matieres').options.add(new Option(content, this.id));
+                      });
+                      document.getElementById('matieres').options.add(new Option('Tous les modules & matieres',0));
+                      }
+                    });
+                  
+                }); document.getElementById('refresh').onclick = function(){
+                      $.ajaxSetup({
+                          headers: {
+                              'X-CSRF-TOKEN': $('meta[name="csrf_token"]').attr('content')
+                          }
+                      });
+                      var month = id=$("#month").val(),
+                          year = id=$("#year").val(),
+                          id_filiere = id=$("#filieres").val(),
+                          id_matiere = id=$("#matieres").val();
+                          
+                      $.ajax({
+                          type: "POST",
+                          url: "/getinfo",
+                          data: { month: month,
+                                  year: year,
+                                  id_filiere: id_filiere,
+                                  id_matiere: id_matiere,
+                                  _token:'hSdpp1IfMHiPNpd1MZnMaYIBLvTlgk0CUxWwKtq7'},
+                          success: function(data){
+                            console.log(data);
+                            var tbody = document.getElementById('tbody'),
+                                thead = document.getElementById('thead');
+                            tbody.innerHTML = "";
+                            thead.innerHTML = "";
+                            var t = "",
+                                h = "",
+                                i = 0;
+                            number_days = new Date(year, month, 0).getDate();
+                            h += "<th rowspan=2 style='padding: 28px;''>CNE</th>";
+                            h += "<th rowspan=2 style='padding: 28px;'>Nom</th>";
+                            h += "<th rowspan=2 style='padding: 28px;'>Prénom</th>";
+                            h += "<th rowspan=2 style='padding: 28px;'>Absences</th>";
+                            
+                            for(i= 1;i<=number_days;i++){
+                              h += "<th colspan='4' style='text-align: center;'>"+i+"</th>";
+                            }
+                            h += "</tr>";
+                            h += "<tr class='border-top: 1px solid #ededed'>";
+                            for (var i = 1; i <= number_days; i++){
+                              h += "<th style='text-align: center;'> 09h </th>";
+                              h += "<th style='text-align: center;'> 11h </th>";
+                              h += "<th style='text-align: center;'> 14h </th>";
+                              h += "<th style='text-align: center; border :1px solid #555'> 16h </th>";
+                            }
+                            h +="</tr>";
+
+                            thead.innerHTML = h;
+                            jQuery.each(data, function() {
+                              t += "<tr class='gradeU' style='border-bottom:1.1px solid #aaa'>";
+                              t +=  "<td>"+this.cne+"</td>";
+                              t +=  "<td>"+this.nom+"</td>";
+                              t +=  "<td>"+this.prenom+"</td>";
+                              t +=  "<td style='text-align:center; color: rgb(155, 111, 111); font-weight: bold'>"+(this.absences).length+"</td>";
+                              
+                                
+                                for(day=1; day<=number_days; day++){
+                                  if(day<10)
+                                    jour = year+'-'+month+'-0'+day;
+                                  else
+                                    jour = year+'-'+month+'-'+day;
+
+                                  jourAnd9 = jour+' '+'09';
+                                  jourAnd11 = jour+' '+'11';
+                                  jourAnd14 = jour+' '+'14';
+                                  jourAnd16 = jour+' '+'16';
+
+                                  count_by_day_and_9 = 0;
+                                  count_by_day_and_11 = 0;
+                                  count_by_day_and_14 = 0;
+                                  count_by_day_and_16 = 0;
+
+                                  justifie9 = justifie11 = justifie14 = justifie16 = 1;
+                                  absences = this.absences;
+                                  if(absences.length){
+                                    jQuery.each(absences, function(){
+                                      if(this.date_heure.startsWith(jourAnd9)){
+                                        count_by_day_and_9++;
+                                        justifie9 = this.justifie;
+                                      }
+                                      if(this.date_heure.startsWith(jourAnd11)){
+                                        count_by_day_and_11++;
+                                        justifie11 = this.justifie;
+                                      }
+                                      if(this.date_heure.startsWith(jourAnd14)){
+                                        count_by_day_and_14++;
+                                        justifie14 = this.justifie;
+                                      }
+                                      if(this.date_heure.startsWith(jourAnd16)){
+                                        count_by_day_and_16++;
+                                        justifie16 = this.justifie;
+                                      }
+                                    });
+                                  }
+                                  if(justifie9){
+                                    color9 = "rgb(71, 163, 133)";
+                                  }else{
+                                    color9 = "rgb(155, 111, 111)";
+                                  }
+                                  if(justifie11){
+                                    color11 = "rgb(71, 163, 133)";
+                                  }else{
+                                    color11 = "rgb(155, 111, 111)";
+                                  }
+                                  if(justifie14){
+                                    color14 = "rgb(71, 163, 133)";
+                                  }else{
+                                    color14 = "rgb(155, 111, 111)";
+                                  }
+                                  if(justifie16){
+                                    color16 = "rgb(71, 163, 133)";
+                                  }else{
+                                    color16 = "rgb(155, 111, 111)";
+                                  }
+                                  if(count_by_day_and_9){
+                                    t += "<td style='text-align:center; color: "+color9+"; font-weight: bold; border-left: 1px solid #555'>X</td>";
+                                  }else{
+                                    t += "<td style='border-left: 1px solid #555'> </td>";
+                                  }
+
+                                  if(count_by_day_and_11){
+                                    t += "<td style='text-align:center; color: "+color11+"; font-weight: bold'>X</td>";
+                                  }else{
+                                    t += "<td> </td>";
+                                  }
+
+                                  if(count_by_day_and_14){
+                                    t += "<td style='text-align:center; color: "+color14+"; font-weight: bold'>X</td>";
+                                  }else{
+                                    t += "<td> </td>";
+                                  }
+
+                                  if(count_by_day_and_16){
+                                    t += "<td style='text-align:center; color: "+color16+"; font-weight: bold; border-right: 1px solid #555'>X</td>";
+                                  }else{
+                                    t += "<td style='border-right: 1px solid #555'> </td>";
+                                  }
+                                }
+                                t +=  "</tr>";
+                            });
+                            tbody.innerHTML = t;
+                            console.log(data);
+                            
+                          }
+                      });
+                    };
+              });
+           </script>
+          </div>
+          <!-- /col-lg-9 END SECTION MIDDLE -->
+          <!-- **********************************************************************************************************************************************************
+              RIGHT SIDEBAR CONTENT
+              *********************************************************************************************************************************************************** -->
+          
+          <!-- /col-lg-3 -->
+        </div>
+        <!-- /row -->
+      </section>
+    </section>
+    <!--main content end-->
+    <!--footer start-->
+    <footer class="site-footer">
+      <div class="text-center">
+        <p>
+        &copy; Copyright <strong>Ecole Nationale des Sciences Appliquées de Tanger 2022</strong>. Tous droits réservés.
+        </p>
+        
+        <a href="index.html#" class="go-top">
+          <i class="fa fa-angle-up"></i>
+          </a>
+      </div>
+    </footer>
+    <!--footer end-->
+  </section>
+  <!-- js placed at the end of the document so the pages load faster -->
+  <script src="lib/jquery/jquery.min.js"></script>
+
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script class="include" type="text/javascript" src="lib/jquery.dcjqaccordion.2.7.js"></script>
+  <script src="lib/jquery.scrollTo.min.js"></script>
+  <script src="lib/jquery.nicescroll.js" type="text/javascript"></script>
+  <script src="lib/jquery.sparkline.js"></script>
+  <!--common script for all pages-->
+  <script src="lib/common-scripts.js"></script>
+  <script type="text/javascript" src="lib/gritter/js/jquery.gritter.js"></script>
+  <script type="text/javascript" src="lib/gritter-conf.js"></script>
+  <!--script for this page-->
+  <script src="lib/sparkline-chart.js"></script>
+  <script src="lib/zabuto_calendar.js"></script>
+ 
+  <script type="application/javascript">
+    $(document).ready(function() {
+      $("#date-popover").popover({
+        html: true,
+        trigger: "manual"
+      });
+      $("#date-popover").hide();
+      $("#date-popover").click(function(e) {
+        $(this).hide();
+      });
+
+      $("#my-calendar").zabuto_calendar({
+        action: function() {
+          return myDateFunction(this.id, false);
+        },
+        action_nav: function() {
+          return myNavFunction(this.id);
+        },
+        ajax: {
+          url: "show_data.php?action=1",
+          modal: true
+        },
+        legend: [{
+            type: "text",
+            label: "Special event",
+            badge: "00"
+          },
+          {
+            type: "block",
+            label: "Regular event",
+          }
+        ]
+      });
+    });
+
+    function myNavFunction(id) {
+      $("#date-popover").hide();
+      var nav = $("#" + id).data("navigation");
+      var to = $("#" + id).data("to");
+      console.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);
+    }
+  </script>
+</body>
+
+</html>
